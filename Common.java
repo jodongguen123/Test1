@@ -9,7 +9,9 @@ public class Common {
 		if(num == 1) {
 			
 		}else if(num == 2) {
-			
+			LoginImp lo = new LoginImp();
+			lo.checkId();
+			lo.login();
 		}else if(num == 3) {
 			
 		}else if(num == 4){
